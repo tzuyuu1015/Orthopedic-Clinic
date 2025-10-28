@@ -77,25 +77,18 @@
 
 > 本站所有 RWD 與導覽互動皆以 **純 CSS** 完成（無 JS）。
 
-### 首頁
 <img src="./images/hero-desktop.webp" alt="主頁" width="520">
 
-### 醫師介紹
 <img src="./images/doctor-grid-desktop.webp" alt="醫師簡介" width="520">
 
-### 衛教網站
 <img src="./images/nurse-desktop.png" alt="衛教網站" width="520">
 
-### 治療介紹
 <img src="./images/PLT-desktop.png" alt="PLT" width="520">
 
-### 物理治療
 <img src="./images/r-desktop.png" alt="物理治療" width="520">
 
-### 門診時刻
 <img src="./images/time-desktop.png" alt="門診時刻" width="520">
 
-### 預約畫面
 <img src="./images/book-desktop.png" alt="預約畫面" width="520">
 
 ### 手機畫面（Mobile View）
