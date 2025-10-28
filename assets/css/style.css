@@ -5,8 +5,9 @@
 .category-toggle-btn {
     display: none;
 }
+
 div.contact-info-mobile {
-    display: none; /* 關鍵！確保這條規則獨立且存在 */ 
+    display: none;  
 }
 
 .mobile-schedule {
@@ -16,17 +17,21 @@ div.contact-info-mobile {
 html{
     font-size: 100%;
 }
+
 body{
     font-family:"Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3",
     sans-serif;line-height: 1.7;
     color: #443322;
 }
+
 a{
     text-decoration: none;
 }
+
 img{
     max-width: 100%;
 }
+
 /***index.html***/
 /*大型背景*/
 .big-big{
@@ -34,6 +39,7 @@ img{
     background-position: center top; /*容器中垂直置中並靠頂部對齊*/
     background-repeat: no-repeat; /*禁止背景圖片的重複*/
 }
+
 #home{
     background-image:url(../images/background4.JPG);
     min-height: 100vh;/*畫面高度*/
@@ -50,6 +56,7 @@ img{
     display: flex; 
     justify-content: space-between;
 }
+
 .wrapper{
     padding:0 4%;
     display: flex;
@@ -60,18 +67,22 @@ img{
     padding:0 4%;
     display: flex;
 }
+
 .main-nav{
     display: flex;
     font-size: 1.25rem;
     margin-top: 44px;
     list-style: none;
 }
+
 .main-nav li{
     margin-left: 36px;
 }
+
 .main-nav a{
     color:#432;
 }
+
 .main-nav a:hover{ 
     color:#0bd;
 }
@@ -92,7 +103,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center; /* 垂直置中 */
-    align-items: center;   /* 水平置中 (因為 text-align 已經是 center，這行是為了更穩固) */
+    align-items: center;   /* 水平置中 */
 }
 .page-title{
     font-size: 5rem;
@@ -171,6 +182,7 @@ footer{
 }
 
 /**邊攔**/
+
 article{
     width:74%;
 }
@@ -191,9 +203,11 @@ font-size: 1.375rem;
     border-bottom:2px #0bd solid;
     font-weight: normal;
 }
+
 aside p{
     padding:12px 10px;
 }
+
 /* ... 您其他 sub-menu, shape-ex1 等樣式保持不變 ... */
 .post-info{
     position: relative; /*這個屬性可決定元素的相對位置 屬性:相對位置*/
@@ -215,6 +229,7 @@ aside p{
     top:0;
     padding-top:10px;
 }
+
 .post-data span{
     font-size:1rem;
     border-top:1px rgba(255,255,255,.5) solid; /*日期文字上方加入水平線*/
@@ -223,15 +238,18 @@ aside p{
     width:60px;
     margin: 0 auto;
 }
+
 .post-title{
     font-family: "Yu Mincho","YuMincho",serif;/*指定文章標題的字體惟游明昭體,襯線體*/
     font-size: 2rem;
     font-weight: normal;
 }
+
 .post-title,
 .post-OA {
     margin-left: 120px;
 }
+
 /**aside**/
 .sub-title{
     font-size: 1.375rem;
@@ -266,13 +284,16 @@ aside p{
 .shape-ex1{
     display: block;
     /*transition: all .3s linear*/
-   }
+}
+
 .shape-ex1 ul{
     padding-inline-start: 0px;
 }
+
 .shape-ex1 li::marker{
     font-size: 0;
 }
+
 .shape-ex1 input[type="checkbox"],
 .shape-ex1 input[type="radio"]{
     position: absolute;
@@ -288,48 +309,40 @@ aside p{
     color:#432;
     padding: 10px;
     display: block;
-   /* border-bottom:1px #ddd solid; 每個項目下方加入淺灰色底線*/
-    
+/* border-bottom:1px #ddd solid; 每個項目下方加入淺灰色底線*/
 }
 .shape-ex1-list-sec-name a:hover{
     color:#0bd;
     text-decoration: none;
 
 }
+
 .shape-ex1-list-sec-name a{
     color:#432;
 }
-    /*font-size: 1.25rem;
-    line-height: 2rem;
-    padding-right: 1.25rem;
-    padding-left: 0.625rem;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    background-color: rgb(209 213 219);
-    display: block;
-    min-width: max-content;
-    position: relative;*/
+
 .shape-ex1-list-name::after{
-        content:'';
-        width: 0;
-        height: 0;
-        border-top: 8px solid #0bd;
-        border-left: 4px solid transparent;
-        border-right: 4px solid transparent;
-        position: absolute;
-        top: 18px;
-        right: 0px;
+    content:'';
+    width: 0;
+    height: 0;
+    border-top: 8px solid #0bd;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    position: absolute;
+    top: 18px;
+    right: 0px;
 }
+
 .shape-ex1-list-name a:hover{
     color:#0bd;
     text-decoration: none;
 }
+
 .shape-ex1-list-sec-box{
     display: none;
     padding-left: 0;
 }
-.shape-ex1-list-sec{
-}
+
 .shape-ex1-list-sec-name{
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
@@ -352,52 +365,34 @@ aside p{
     border-left:solid 7px #4D453E;
     padding-left: 5px;
 }
-/*treat.html*/
-/*
-.image-bg-2 {
-    position: relative;
-  }
-  
-.bg {
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.2;
-  }
-  
-  .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 1.25rem;
-    text-indent: 2em
-  }
-  */
 
-.font{
-}
 .text2{
     text-indent: 2em;
     line-height: 2;
     float: left 40%;
 }
+
 .plt{
     color: red;
 }
+
 .yellow{
     background: linear-gradient(#ffffff00 60%, #ffff005c 50%) !important;
     font-size: 1.5rem;
     font-weight:bold; 
 }
+
 .green{
     background:linear-gradient(transparent 40%,rgba(255,255,255,0) 40%, #90daff 50%,transparent 70%);	
     padding: 2px 1px;
     font-weight:bold; 
 }
+
 .text3{
     line-height:2;
     float: left 40%;
 }
+
 .pii{
     float: right;
     max-width:420px;
@@ -412,12 +407,12 @@ aside p{
             transition: 0.5s;
             padding: 10px; 
         }
-        
-      
 }
+
 .all{
     background-color: #e9e4e442;
 }
+
 .text4{
     line-height:2;
     float: left 40%;
@@ -432,6 +427,7 @@ aside p{
     justify-content: center;
 
 }
+
 .rehabilitation{
     color:#432;
     font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3",
@@ -439,12 +435,12 @@ aside p{
     
 }
 .rehabilitation-title{
-   text-align: center;
-   font-size: 2rem;
-   font-weight: bold;
-   line-height: 2;
-   
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2;
 }
+
 .rehabilitation p{
     font-size: 1.25rem;
     background: rgba(255,255,2255,0.5);
@@ -453,6 +449,7 @@ aside p{
     text-align: center;
     margin-top: 10px;
 }
+
 .grid{
     display: grid;
     gap:90px;
@@ -461,20 +458,19 @@ aside p{
     margin-bottom: 70px;
     margin-right: 70px;
     margin-left: 70px;
-
 }
+
 .item p{
     text-align: center;
     font-weight: bold;
     font-size: 1.25rem;
 }
+
 .pil2{
     max-width:500px;
     img{
         max-width:100%;
         overflow: hidden;
-
-
             }
     &:hover {
             transform: scale(1.2);
@@ -491,21 +487,25 @@ aside p{
     text-align: center;
     align-items: center;
 }
+
 .table1{
     font-size: 2rem;
     font-weight: bold;
     color:#432;
     
 }
+
 .table1{
     background: linear-gradient(#ffffff00 60%, #ffff005c 50%) !important;
     font-size: 2rem;
     font-weight:bold; 
 }
+
 .table2{
     padding: 15px;
     margin-bottom: 10px;
 }
+
 .table3{
     height: 100px;
     outline: 1px solid;
@@ -514,15 +514,18 @@ aside p{
     border-style: hidden;
     box-shadow: 0 0 5px #000000;
 }
+
 table th{
     padding: 5px;
     color:#432;
 }
+
 table td{
     padding: 5px;
     color:#432;
     border: 1px solid #432;
 }
+
 a {
     color: rgb(33, 38, 62)
 }
@@ -536,9 +539,11 @@ tr:nth-child(odd) {
 td:hover {
     background-color: #E6FBFF;
 }
+
 .a1{
     width: 100px;
 }
+
 .a3{
     width: 200px;
 }
@@ -550,6 +555,7 @@ td:hover {
     align-items: center;
     border:none;
 }
+
 .yellow2{
     background: linear-gradient(#ffffff00 60%, #ffff005c 50%) !important;
     font-size: 2rem;
@@ -558,11 +564,13 @@ td:hover {
     text-align: center;
     margin:20px;
 }
+
 .article_doctor{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .yellow3{
     margin-bottom:20px;
     background: linear-gradient(#ffffff00 60%, #ffff005c 50%) !important;
@@ -571,6 +579,7 @@ td:hover {
     width: 200px;
     text-align: center;
 }
+
 iframe{
     margin-bottom:20px;
 }
@@ -580,6 +589,7 @@ iframe{
     margin: 0 auto;
     padding: 20px;
 }
+
 form {
     max-width: 500px;
     margin: 0 auto;
@@ -588,10 +598,12 @@ form {
     border-radius: 5px;
     background-color: #fffffa;
 }
+
 label {
     display: block;
     margin-bottom: 10px;
 }
+
 input[type="text"], input[type="email"], input[type="date"], select {
     width: 100%;
     padding: 5px;
@@ -599,6 +611,7 @@ input[type="text"], input[type="email"], input[type="date"], select {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 input[type="submit"] {
     background-color: #0bd;
     color: #fff;
@@ -608,26 +621,26 @@ input[type="submit"] {
     cursor: pointer;
     margin-top: 10px;
 }
+
 input[type="submit"]:hover {
     background-color: #1199ae;
 }
+
 .label1{
     font-weight: bold;
 }
+
 .article_book{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/*==================================================*/
-/* RWD 響應式設計專用區塊 (請貼在 CSS 最下方)       */
-/*==================================================*/
-
+/* RWD 響應式設計專用區塊 */
 /* 當螢幕寬度小於或等於 900px 時，啟用以下樣式 */
-@media screen and (max-width: 900px) {
 
-    /* --- 導覽列：啟用漢堡選單 --- */
+@media screen and (max-width: 900px) {
+/* --- 導覽列：啟用漢堡選單 --- */
     .menu-icon {
         display: block;
         cursor: pointer;
@@ -668,7 +681,7 @@ input[type="submit"]:hover {
         display: none; /* 隱藏 checkbox */
     }
 
-    /* --- 點擊後漢堡圖示變成叉叉 --- */
+/* --- 點擊後漢堡圖示變成叉叉 --- */
     .menu-btn:checked ~ .menu-icon .nav-icon {
         background: transparent;
     }
@@ -681,7 +694,7 @@ input[type="submit"]:hover {
         top: 0;
     }
     
-    /* --- 導覽選單 (收合/展開) --- */
+/* --- 導覽選單 (收合/展開) --- */
     .main-nav {
         position: fixed;
         top: 0;
@@ -708,24 +721,25 @@ input[type="submit"]:hover {
         border-bottom: 1px solid #eee;
     }
 
-    /* --- Header & Logo 調整 --- */
+/* --- Header & Logo 調整 --- */
     .logo {
         width: 250px; /* 縮小 Logo 尺寸 */
     }
     .header {
-        align-items: center; /* 確保 Logo 和漢堡圖示垂直對齊 */
+        align-items: center; 
     }
     
-    /* --- Home Content 調整 --- */
+/* --- Home Content 調整 --- */
     .page-title {
-        font-size: 3rem; /* 縮小標題字體 */
+        font-size: 3rem; 
+        text-align: center;
     }
     .home-content p {
         width: auto; /* 移除固定寬度 */
         padding: 0 4%;
     }
 
-    /* --- 內容 & 側邊欄佈局 (垂直堆疊) --- */
+/* --- 內容 & 側邊欄佈局 (垂直堆疊) --- */
     .contents {
         flex-direction: column; /* 垂直堆疊 */
         padding: 0 4%;
@@ -749,7 +763,7 @@ input[type="submit"]:hover {
         margin: 6% 4%;
     }
     
-    /* --- 圖文混排 (垂直堆疊) --- */
+/* --- 圖文混排 (垂直堆疊) --- */
     .text2, .text3, .text4, .pii {
         float: none;
         width: 100%;
@@ -757,13 +771,13 @@ input[type="submit"]:hover {
         margin: 10px auto;
     }
     
-    /* --- Rehabilitation 區塊 --- */
+/* --- Rehabilitation 區塊 --- */
     .rehabilitation p {
         width: auto; /* 移除固定寬度 */
         padding: 0 4%;
     }
 
-    /* --- 表格 (Table) 水平捲動 --- */
+/* --- 表格 (Table) 水平捲動 --- */
     .nurse-table {
         overflow-x: auto; /* 讓表格的容器可以水平捲動 */
     }
@@ -772,7 +786,194 @@ input[type="submit"]:hover {
         overflow-x: auto;
         white-space: nowrap; /* 確保表格內容不換行，才能正常捲動 */
     }
+/* 啟用開關按鈕 */
+    .category-toggle-label {
+        display: block;
+    }
+    /* 在桌面版隱藏我們新增的內容容器 */
+    .sidebar-content {
+         max-height: none; /* 在桌面版取消收合 */
+    }
+
+/* 關鍵！使用 flexbox 的 order 屬性來改變視覺順序 */
+    aside {
+        order: 1; /* 讓側邊欄在視覺上排第 1 */
+    }
+    article {
+        order: 2; /* 讓主要內容在視覺上排第 2 */
+    }
+
+/* 在手機上，隱藏桌面版的 h3 標題，因為開關按鈕已經有文字了 */
+    .sidebar-content .sub-title {
+        display: none;
+    }
+
+/* --- doctor.html 醫師介紹頁面 RWD --- */
+    .doctor-grid {
+        /* 關鍵！將網格改為單欄佈局 */
+        grid-template-columns: 1fr; 
+        gap: 15px; /* 縮小間距 */
+    }
+    .doctor-visual {
+        /* 在手機上，讓照片和姓名後面自動空出一些距離 */
+        margin-bottom: 10px; 
+    }
+    .doctor-details {
+        /* 在手機上，讓文字介紹和下一位醫師之間空出較大距離 */
+        margin-bottom: 40px; 
+    }
+    .doctor-name {
+        font-size: 1.8rem;
+    }
+    .doctor-details{
+        text-align: center;
+    }
+    .doctor-details ul {
+        list-style: none; /* 關鍵！移除項目符號 (點點) */
+        padding-left: 0;  /* 移除左邊的預設縮排 */
+    }
+/* 1. 隱藏側邊欄裡的那一份聯絡資訊 */
+    .sidebar-footer-desktop {
+        margin-top: auto;       /* 自動將上方空間填滿，把此元素推到底部 */
+    }
+/* 2. 顯示我們放在頁面底部的那一份 */
+    .contact-info-mobile {
+        display: block !important;
+        margin-bottom: 50px; /* 增加和 footer 之間的距離 */
+    }
+    .yellow{
+        font-size: 20px;
+    }
+    .sidebar-footer-desktop{
+        display: none;
+    }
+/* --- nurse.html  --- */
+    .nurse-table .table3 {
+        /* 移除桌面版的陰影和圓角，改由 tr 來呈現卡片感 */
+        box-shadow: none;
+        border-style: none;
+        border-spacing: 0 25px;    /* 用 border-spacing 取代 margin，效果更穩定 */
+        height: 600px;
+    }
+/* 1. 隱藏桌面版的表頭 */
+    .nurse-table .table3 thead {
+        display: none;
+    }
+/* 2. 把 tr 變成卡片 */
+    .nurse-table .table3 tr {
+        display: block; /* 讓 tr 變成區塊元素 */
+        /* margin-bottom: 30px; */ /* 改用 border-spacing */
+        border: 1px solid #ddd;
+        border-radius: 8px; /* 增加圓角 */
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.08); 
+        overflow: hidden; 
+    }
+/* 3. 把 td 變成完整的橫條，並增加高度 */
+    .nurse-table .table3 td {
+        display: block;
+        padding: 16px 20px;   
+        text-align: right; 
+        border-bottom: 1px solid #eee;
+        font-size: 1.1rem;     
+    }
+    .nurse-table .table3 tr:last-child {
+        margin-bottom: 0; /* 最後一張卡片不需要底部間距 */
+    }
+    .nurse-table .table3 td:last-child {
+        border-bottom: none; 
+    }
+/* 4. 調整標題樣式 */
+    .nurse-table .table3 td::before {
+        content: attr(data-label); 
+        float: left; 
+        font-weight: bold;
+        color: #432;
+    }
+/* --- about.html (時刻表/地圖) RWD --- */
+/* 1. 讓時刻表可以水平捲動 */
+    .table-container {
+        overflow-x: auto; /* 讓這個容器可以水平捲動 */
+        -webkit-overflow-scrolling: touch; /* 在 iOS 上提供更平滑的捲動體驗 */
+    }
+    .table_doctor1 {
+        width: 100%; /* 讓表格寬度盡量填滿容器 */
+        min-width: 700px; /* 設定一個最小寬度，避免內容被過度壓縮 */
+    }
+/* 2. 讓地圖滿版顯示 */
+    .article_doctor iframe {
+        width: 100%; 
+        height: 300px; /* 手機上高度可以矮一點 */
+        max-width: 100%; /* 確保不會超出邊界 */
+    }
+/* 3. 調整標題樣式 */
+    .yellow2, .yellow3 {
+        width: auto; /* 取消固定寬度 */
+        font-size: 1.5rem; 
+        display: inline-block; /* 讓寬度自適應內容 */
+    }
+/* --- about.html 時刻表 RWD (摺疊選單) --- */
+/* 1. 隱藏桌面版的表格，顯示手機版的選單 */
+    .desktop-schedule {
+        display: none;
+    }
+    .mobile-schedule {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+    }
+/* 2. 設計摺疊選單的外觀 */
+    .schedule-day {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+    .day-label {
+        display: block;
+        padding: 15px;
+        background-color: #f7f7f7;
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+    }
+    .day-label::after { /* 加上箭頭圖示 */
+        content: '▼';
+        position: absolute;
+        right: 15px;
+        transition: transform 0.3s;
+    }
+    .day-label休診 { /* 休診日的樣式 */
+        background-color: #eee;
+        color: #999;
+        cursor: not-allowed;
+    }
+    /* 3. 設計展開後的內容 */
+    .day-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+    }
+    .session {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 15px;
+        border-top: 1px solid #eee;
+    }
+    /* 4. 隱藏 checkbox，並實現展開效果 */
+    .day-toggle {
+        display: none;
+    }
+    .day-toggle:checked + .day-label + .day-content {
+        max-height: 500px; /* 展開 */
+    }
+    .day-toggle:checked + .day-label::after {
+        transform: rotate(180deg); /* 箭頭旋轉 */
+    }
+    .about-bottom{
+        margin-bottom: -100px;
+    }
 }
+
 
 /* 針對更小的手機螢幕 (例如 iPhone SE)，將 Grid 改為單欄 */
 @media screen and (max-width: 600px) {
@@ -785,304 +986,70 @@ input[type="submit"]:hover {
     .page-title {
         font-size: 2.5rem;
     }
-}
-
-@media screen and (max-width: 600px) {
-
 /* --- 針對 index.html 的手機版面優化 --- */
-.header {
-    display: flex; /* 確保啟用 Flexbox 佈局 */
-    justify-content: space-between;
-    align-items: center; /* 讓 Logo 和漢堡圖示垂直置中，更美觀 */
-}
-
-.home-content {
-    padding-top: 10%; /* 減少內容與頂部的距離 */
-}
-.page-title {
-    font-size: 2.8rem; /* 明顯縮小主標題，讓視覺更集中 */
-    line-height: 1.2; /* 調整行高 */
-}
-.home-content p {
-    font-size: 1rem; /* 縮小內文字體 */
-    margin: 15px auto 30px; /* 縮小段落的上下間距 */
-}
-.button {
-    font-size: 1rem; /* 縮小按鈕字體 */
-    padding: 12px 24px; /* 縮小按鈕的內邊距 */
-}
-
+    .header {
+        display: flex; /* 確保啟用 Flexbox 佈局 */
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .home-content {
+        padding-top: 10%; 
+    }
+    .page-title {
+        font-size: 2.8rem; 
+        line-height: 1.2; 
+    }
+    .home-content p {
+        font-size: 1rem; /* 縮小內文字體 */
+        margin: 15px auto 30px; /* 縮小段落的上下間距 */
+    }
+    .button {
+        font-size: 1rem;
+        padding: 12px 24px; /* 縮小按鈕的內邊距 */
+    }
 /* --- 手機版首頁：將中間文字垂直置中 --- */
-#home {
-    /* 將 #home 容器改為 Flexbox 佈局，讓子元素可以被控制 */
-    display: flex;
-    flex-direction: column;
-}
-
-.home-content {
-    /* 讓 .home-content 這個區塊自動"長高"，填滿 Header 下方所有剩餘的空間 */
-    flex-grow: 1;
-
-    /* 將 .home-content 自己也變成 Flexbox，用來置中它內部的文字和按鈕 */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* 關鍵！實現垂直置中 */
-}
-
-.menu-icon{
-    margin-right: -100px;
-
-}
-
+    #home {
+        /* 將 #home 容器改為 Flexbox 佈局，讓子元素可以被控制 */
+        display: flex;
+        flex-direction: column;
+    }
+    .home-content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+    .menu-icon{
+        margin-right: -100px;
+    }
 /* 1. 隱藏 checkbox，設計開關按鈕的外觀 */
-.category-toggle-btn {
-    display: none;
-}
-.category-toggle-label {
-    display: none; /* 預設隱藏，只在手機版顯示 */
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
-    padding: 15px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 5px;
-    margin-bottom: 20px; /* 與下方內容的間距 */
-}
-
-/* 2. 預設將側邊欄內容收合起來 */
-.sidebar-content {
-    /* 使用 max-height 搭配 transition 可以做出滑順的展開動畫 */
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease-in-out;
-}
-
-/* 3. 點擊開關後，展開內容 */
-.category-toggle-btn:checked ~ .sidebar-content {
-    max-height: 1000px; /* 設定一個足夠大的高度讓內容完全顯示 */
-}
-.category-toggle-btn:checked + .category-toggle-label::after {
-    content: ' ▲'; /* 可以在展開後改變圖示 */
-}
-
-/* 4. 在手機上，將 article 和 aside 的順序對調 */
-@media screen and (max-width: 900px) {
-    /* 啟用開關按鈕 */
-    .category-toggle-label {
-        display: block;
-    }
-    /* 在桌面版隱藏我們新增的內容容器 */
-    .sidebar-content {
-         max-height: none; /* 在桌面版取消收合 */
-    }
-
-    /* 關鍵！使用 flexbox 的 order 屬性來改變視覺順序 */
-    aside {
-        order: 1; /* 讓側邊欄在視覺上排第 1 */
-    }
-    article {
-        order: 2; /* 讓主要內容在視覺上排第 2 */
-    }
-
-    /* 在手機上，隱藏桌面版的 h3 標題，因為開關按鈕已經有文字了 */
-    .sidebar-content .sub-title {
+    .category-toggle-btn {
         display: none;
     }
-    /* --- doctor.html 醫師介紹頁面 RWD --- */
-.doctor-grid {
-    /* 關鍵！將網格改為單欄佈局 */
-    grid-template-columns: 1fr; 
-    gap: 15px; /* 縮小間距 */
-}
-
-.doctor-visual {
-    /* 在手機上，讓照片和姓名後面自動空出一些距離 */
-    margin-bottom: 10px; 
-}
-
-.doctor-details {
-    /* 在手機上，讓文字介紹和下一位醫師之間空出較大距離 */
-    margin-bottom: 40px; 
-}
-
-.doctor-name {
-    font-size: 1.8rem;
-}
-
-.doctor-details{
-    text-align: center;
-}
-
-.doctor-details ul {
-    list-style: none; /* 關鍵！移除項目符號 (點點) */
-    padding-left: 0;  /* 移除左邊的預設縮排 */
-}
-.sub-menu2{
-    
-}
-
-.doctor-name{
-    /* margin-bottom: 0px; */
-}
-
-/* --- 手機版：將聯絡資訊移至頁面底部 --- */
-
-/* 1. 隱藏側邊欄裡的那一份聯絡資訊 */
-.sidebar-footer-desktop {
-    margin-top: auto;       /* 自動將上方空間填滿，把此元素推到底部 */
-}
-/* 2. 顯示我們放在頁面底部的那一份 */
-.contact-info-mobile {
-    display: block !important;
-    margin-bottom: 50px; /* 增加和 footer 之間的距離 */
-}
-
-.yellow{
-    font-size: 20px;
-}
-.sidebar-footer-desktop{
-    display: none;
-}
-
-/* --- nurse.html 表格頁面 RWD --- */
-.nurse-table .table3 {
-    /* 移除桌面版的陰影和圓角，改由 tr 來呈現卡片感 */
-    box-shadow: none;
-    border-style: none;
-    border-spacing: 0 25px;    /* 【關鍵！】用 border-spacing 取代 margin，效果更穩定 */
-    height: 600px;
-}
-
-/* 1. 隱藏桌面版的表頭 */
-.nurse-table .table3 thead {
-    display: none;
-}
-
-/* 2. 把 tr 變成卡片 */
-.nurse-table .table3 tr {
-    display: block; /* 讓 tr 變成區塊元素 */
-    /* margin-bottom: 30px; */ /* 改用 border-spacing */
-    border: 1px solid #ddd;
-    border-radius: 8px; /* 增加圓角 */
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.08); /* 陰影稍微加深 */
-    overflow: hidden; /* 確保圓角效果正確 */
-}
-
-/* 3. 把 td 變成完整的橫條，並增加高度 */
-.nurse-table .table3 td {
-    display: block;
-    padding: 16px 20px;   /* 【關鍵！】增加上下內邊距，讓每一行都變高 */
-    text-align: right; 
-    border-bottom: 1px solid #eee;
-    font-size: 1.1rem;      /* 【關鍵！】稍微放大字體，讓內容更飽滿 */
-}
-.nurse-table .table3 tr:last-child {
-    margin-bottom: 0; /* 最後一張卡片不需要底部間距 */
-}
-.nurse-table .table3 td:last-child {
-    border-bottom: none; 
-}
-
-/* 4. 調整標題樣式 */
-.nurse-table .table3 td::before {
-    content: attr(data-label); 
-    float: left; 
-    font-weight: bold;
-    color: #432;
-}
-
-/* --- about.html (時刻表/地圖) RWD --- */
-
-/* 1. 讓時刻表可以水平捲動 */
-.table-container {
-    overflow-x: auto; /* 關鍵！讓這個容器可以水平捲動 */
-    -webkit-overflow-scrolling: touch; /* 在 iOS 上提供更平滑的捲動體驗 */
-}
-.table_doctor1 {
-    width: 100%; /* 讓表格寬度盡量填滿容器 */
-    min-width: 700px; /* 設定一個最小寬度，避免內容被過度壓縮 */
-}
-
-/* 2. 讓地圖滿版顯示 */
-.article_doctor iframe {
-    width: 100%; /* 寬度佔滿 100% */
-    height: 300px; /* 手機上高度可以矮一點 */
-    max-width: 100%; /* 確保不會超出邊界 */
-}
-
-/* 3. 調整標題樣式 */
-.yellow2, .yellow3 {
-    width: auto; /* 取消固定寬度 */
-    font-size: 1.5rem; /* 縮小字體 */
-    display: inline-block; /* 讓寬度自適應內容 */
-}
-
-/* --- about.html 時刻表 RWD (摺疊選單) --- */
-
-/* 1. 隱藏桌面版的表格，顯示手機版的選單 */
-.desktop-schedule {
-    display: none;
-}
-.mobile-schedule {
-    display: block;
-    width: 100%;
-    margin-top: 20px;
-}
-
-/* 2. 設計摺疊選單的外觀 */
-.schedule-day {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    overflow: hidden;
-}
-.day-label {
-    display: block;
-    padding: 15px;
-    background-color: #f7f7f7;
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
-}
-.day-label::after { /* 加上箭頭圖示 */
-    content: '▼';
-    position: absolute;
-    right: 15px;
-    transition: transform 0.3s;
-}
-.day-label休診 { /* 休診日的樣式 */
-    background-color: #eee;
-    color: #999;
-    cursor: not-allowed;
-}
-
-/* 3. 設計展開後的內容 */
-.day-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease-in-out;
-}
-.session {
-    display: flex;
-    justify-content: space-between;
-    padding: 12px 15px;
-    border-top: 1px solid #eee;
-}
-
-/* 4. 隱藏 checkbox，並實現展開效果 */
-.day-toggle {
-    display: none;
-}
-.day-toggle:checked + .day-label + .day-content {
-    max-height: 500px; /* 展開 */
-}
-.day-toggle:checked + .day-label::after {
-    transform: rotate(180deg); /* 箭頭旋轉 */
-}
-.about-bottom{
-    margin-bottom: -100px;
-}
-
+    .category-toggle-label {
+        display: none; /* 預設隱藏，只在手機版顯示 */
+        background-color: #f0f0f0;
+        border: 1px solid #ddd;
+        padding: 15px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 20px; 
+    }
+/* 2. 預設將側邊欄內容收合起來 */
+    .sidebar-content {
+        /* 使用 max-height 搭配 transition 可以做出滑順的展開動畫 */
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+    }
+/* 3. 點擊開關後，展開內容 */
+    .category-toggle-btn:checked ~ .sidebar-content {
+        max-height: 1000px; /* 設定一個足夠大的高度讓內容完全顯示 */
+    }
+    .category-toggle-btn:checked + .category-toggle-label::after {
+        content: ' ▲'; /* 可以在展開後改變圖示 */
+    }
 }
