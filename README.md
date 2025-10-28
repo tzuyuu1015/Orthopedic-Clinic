@@ -103,8 +103,6 @@
   <tr>
     <td><img src="./images/hero-moblie.webp" alt="手機主頁" width="320"></td>
     <td><img src="./images/hero-mobile.webp"  alt="導覽列手機展開" width="320"></td>
-  </tr>
-  <tr>
     <td><img src="./images/table-cards-mobile.webp" alt="衛教卡片" width="320"></td>
     <td><img src="./images/table-scroll-mobile.webp"  alt="摺疊式列表" width="320"></td>
   </tr>
