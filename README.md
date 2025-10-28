@@ -1,10 +1,12 @@
 # 立健骨科診所 - 響應式前端練習專案
 
-這是一個為虛構的「立健骨科診所」所建立的靜態網站，作為個人前端開發與響應式網頁設計 (RWD) 的練習作品。專案的主要目標是從零開始，不依賴任何前端框架 (如 Bootstrap)，手刻出一個在桌面、平板與手機上都能提供良好瀏覽體驗的網站。
+本專案是一個以「**純 HTML / CSS**」手刻完成的靜態網站，模擬虛構的「立健骨科診所」。  
+開發目的為練習 **RWD 響應式網頁設計**，不使用任何前端框架（例如 Bootstrap），  
+並確保在桌面、平板與手機上皆具備良好的閱讀與操作體驗。
 
 ---
 
-### ✨ 專案特色 (Features)
+### 專案特色 (Features)
 
 這個專案的核心在於響應式設計的實作，涵蓋了多種現代 RWD 的解決方案：
 
@@ -29,7 +31,7 @@
 
 ---
 
-### 🚀 使用技術 (Technologies Used)
+### 使用技術 (Technologies Used)
 
 * **HTML5**：使用語意化標籤建立網頁結構。
 * **CSS3**：
@@ -41,7 +43,7 @@
 
 ---
 
-### 📂 專案結構 (File Structure)
+### 專案結構 (File Structure)
 
 ```
 /
@@ -61,7 +63,7 @@
 
 ---
 
-### 💡 開發心得與挑戰
+### 開發心得與挑戰
 
 在這次的專案中，最大的挑戰是如何在不動到原始設計理念的前提下，將一個為桌面設計的版面，優雅地轉換為適合手機的 RWD 佈局。
 
@@ -70,3 +72,40 @@
 * **佈局重排**：醫師介紹頁面的佈局轉換，讓我對 CSS Grid 的強大功能有了更深的認識，它能夠在不改變 HTML 順序的情況下，自由地重新排列元素，是 RWD 的一大福音。
 
 這個專案讓我從頭到尾完整地走過了 RWD 的思考與實作流程，是一個非常有價值的練習。
+
+### 網頁截圖
+
+> 本站所有 RWD 與導覽互動皆以 **純 CSS** 完成（無 JS）。
+
+### 首頁
+<img src="./images/hero-desktop.webp" alt="主頁" width="520">
+
+### 醫師介紹
+<img src="./images/doctor-grid-desktop.webp" alt="醫師簡介" width="520">
+
+### 衛教網站
+<img src="./images/nurse-desktop.png" alt="衛教網站" width="520">
+
+### 治療介紹
+<img src="./images/PLT-desktop.png" alt="PLT" width="520">
+
+### 物理治療
+<img src="./images/r-desktop.png" alt="物理治療" width="520">
+
+### 門診時刻
+<img src="./images/time-desktop.png" alt="門診時刻" width="520">
+
+### 預約畫面
+<img src="./images/book-desktop.png" alt="預約畫面" width="520">
+
+### 手機畫面（Mobile View）
+<table>
+  <tr>
+    <td><img src="./images/hero-moblie.webp" alt="手機主頁" width="320"></td>
+    <td><img src="./images/hero-mobile.webp"  alt="導覽列手機展開" width="320"></td>
+  </tr>
+  <tr>
+    <td><img src="./images/table-cards-mobile.webp" alt="衛教卡片" width="320"></td>
+    <td><img src="./images/table-scroll-mobile.webp"  alt="摺疊式列表" width="320"></td>
+  </tr>
+</table>
